@@ -48,7 +48,7 @@ body::before {
     content: "";
     position: fixed;
     inset: 0;
-    background-image: url("../images/noise.png");
+    background-image: url("/images/noise.png");
     background-repeat: repeat;
     background-size: 400%;
     opacity: .05;
@@ -78,16 +78,10 @@ img {
     position: relative;
     height: 70vh;
     overflow: hidden;
-}
-
-.main-secundairy > div:first-of-type img {
-    position: absolute;
-    width: fit-content;
-    height: 100%;
-
-    right: -32em;
-
-    z-index: 1000;
+    background-image: url("../images/renderThumbnail.jpg");
+    background-repeat: no-repeat;
+    background-size: 400%;
+    background-position: center;
 }
     
 
