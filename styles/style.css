@@ -79,7 +79,7 @@ img {
     height: 70vh;
     overflow: hidden;
     background-image: url("../images/renderThumbnail.jpg");
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: 400%;
     background-position: center;
 }
@@ -229,3 +229,4 @@ footer a {
 .footer-secundairy {
     padding-top: 5em;
 }
+
