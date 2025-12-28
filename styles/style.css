@@ -77,7 +77,7 @@ img {
 .main-secundairy > div:first-of-type {
     position: relative;
     height: 70vh;
-    overflow: hidden;
+    /* overflow: hidden; */
     background-image: url("../images/renderThumbnail.jpg");
     background-repeat: repeat;
     background-size: 400%;
@@ -229,4 +229,5 @@ footer a {
 .footer-secundairy {
     padding-top: 5em;
 }
+
 
