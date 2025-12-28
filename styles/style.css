@@ -231,8 +231,14 @@ footer a {
     padding-top: 5em;
 }
 
-.builds main > div {
+.builds main > div:first-of-type {
     background-image: url("../images/buildsThumbnail.png");
     background-position: 30% 100%;
     background-size: 300%;
+
+    position: relative;
+    height: 70vh;
+    background-repeat: repeat;
+
+    z-index: 1000;
 }
